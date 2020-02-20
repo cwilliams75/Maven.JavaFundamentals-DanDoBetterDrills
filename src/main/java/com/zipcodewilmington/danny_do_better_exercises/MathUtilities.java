@@ -21,10 +21,11 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Long add(long baseValue, long difference) {
-        long x = baseValue;
-        long y = difference;
-        long result = x + y;
-        return result;
+        //long x = baseValue;
+        //long y = difference;
+        //long result = x + y;
+        return baseValue + difference;
+        //return result;
     }
 
     /**
@@ -35,11 +36,11 @@ public class MathUtilities {
     public Short add(short baseValue, short difference) {
         // use the short in parenthesis
         // casting integers into shorts
-        short x = baseValue;
-        short y = difference;
-        short result = (short)(x + y);
-
-        return result;
+        //short x = baseValue;
+       //short y = difference;
+       //short result = (short)(x + y);
+        return (short)(baseValue + difference);
+        //return result;
     }
 
     /**
