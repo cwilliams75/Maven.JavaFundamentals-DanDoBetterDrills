@@ -15,7 +15,7 @@ public class PredicateUtilities {
         if ( x > y){
             return true;
         }
-        if (x < y || x ==y) {
+        if (x < y || x == y) {
             return false;
         }
         return null;

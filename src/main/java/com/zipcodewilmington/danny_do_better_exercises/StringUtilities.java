@@ -20,11 +20,11 @@ public class StringUtilities {
      */
     public static String concatenation(String firstSegment, String secondSegment){
         // variable type, then variable name, then assign value
-        String x = firstSegment;
+       /* String x = firstSegment;
         String y = secondSegment;
         String result = x +  y;
-
-        return result;
+*/
+        return (String) (firstSegment + secondSegment);
     }
 
     /**
@@ -33,12 +33,12 @@ public class StringUtilities {
      * @return the concatenation of an integer, `firstSegment`, and a String, `secondSegment`
      */
     public static String concatenation(int firstSegment, String secondSegment){
-        int x = firstSegment;
+      /*  int x = firstSegment;
         //String first = "" + firstSegment;
         String y = secondSegment;
         String result = x + y;
-
-        return result;
+*/
+        return (int) (firstSegment) + secondSegment;
     }
 
     /**
@@ -92,11 +92,11 @@ public class StringUtilities {
     public static Character getMiddleCharacter(String inputValue){
        // checking to find the string is "even" in length
         if (inputValue.length() % 2 == 0){
-            return inputValue.charAt(inputValue.length() /2 -1);
+            return inputValue.charAt(inputValue.length() / 2 -1);
         }
             else{
 
-            return inputValue.charAt(inputValue.length() /2);
+            return inputValue.charAt(inputValue.length() / 2);
         }
 
     }
@@ -107,10 +107,9 @@ public class StringUtilities {
      */
     public static String getFirstWord(String spaceDelimitedString){
 //Character.toString(spaceDelimitedString.charAt(0) This will return the first character in a string
-          String[] firstword =  spaceDelimitedString.split(" ");
+          String[] firstWord = spaceDelimitedString.split(" ");
 
-
-        return firstword[0];
+        return firstWord[0];
     }
 
     /**
@@ -118,9 +117,9 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public static String getSecondWord(String spaceDelimitedString){
-        String[] secondword =  spaceDelimitedString.split(" ");
+        String[] secondWord =  spaceDelimitedString.split(" ");
 
-        return secondword[1];
+        return secondWord[1];
     }
 
     /**
