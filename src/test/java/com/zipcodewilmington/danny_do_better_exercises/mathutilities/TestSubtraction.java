@@ -49,7 +49,7 @@ public class TestSubtraction {
     public void testByteSubtraction() {
         // : Given
         byte baseValue = 63;
-        byte difference = 64;
+        byte difference =64;
         byte expectedByte = -1;
         // : When
         byte actualByte = mathUtils.subtract(baseValue, difference);

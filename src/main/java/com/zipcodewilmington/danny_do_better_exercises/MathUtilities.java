@@ -96,7 +96,7 @@ public class MathUtilities {
      */
     public Long subtract(long baseValue, long difference) {
 
-        return (long) baseValue - difference;
+        return baseValue - difference;
     }
 
     /**
@@ -135,7 +135,8 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtract(double baseValue, double difference) {
-        return null;
+
+        return baseValue - difference;
     }
 
 
@@ -158,11 +159,11 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Long divide(long dividend, long divisor) {
-        long divd = dividend;
-        long divs = divisor;
-        long result = divd / divs;
+        //long divD = dividend;
+        //long divs = divisor;
+        //long result = divD / divs;
 
-        return result;
+        return dividend / divisor;
     }
 
     /**
@@ -171,11 +172,11 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Short divide(short dividend, short divisor) {
-        short divd = dividend;
+        short divD = dividend;
         short divs = divisor;
-        int result = divd / divs;
+        int result = divD / divs;
 
-    // short result = (short) (divd / divs);
+    // short result = (short) (divD / divs);
 
         return (short) result;
     }
@@ -199,7 +200,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divide(float dividend, float divisor) {
-        return null;
+
+        return dividend / divisor;
     }
 
     /**
@@ -208,7 +210,8 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divide(double dividend, double divisor) {
-        return null;
+
+        return dividend / divisor;
     }
 
 
